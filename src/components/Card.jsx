@@ -21,7 +21,7 @@ export default function Card({
     club: 'أساطير العالم',
     flag: '⚽',
     position: 'FW',
-    avatar: '/players/messi.jpg'
+    avatar: './players/messi.jpg'
   };
 
   const isMatchedByP1 = matchedBy && matchedBy === player1Id;
@@ -150,11 +150,21 @@ export default function Card({
               }}
             >
               <img 
-                src={playerData.avatar} 
+                src={playerData.avatar?.startsWith('/') ? '.' + playerData.avatar : (playerData.avatar || `./players/${playerData.id}.jpg`)} 
                 alt={playerData.name}
                 style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top' }}
                 loading="eager"
                 onError={(e) => {
+                  if (!e.target.dataset.retried) {
+                    e.target.dataset.retried = 'true';
+                    e.target.src = `./players/${playerData.id}.jpg`;
+                    return;
+                  }
+                  if (!e.target.dataset.retriedAbsolute) {
+                    e.target.dataset.retriedAbsolute = 'true';
+                    e.target.src = `/ahmed-game/players/${playerData.id}.jpg`;
+                    return;
+                  }
                   e.target.style.display = 'none';
                   e.target.parentNode.innerHTML = `<span style="font-size:${isCompact ? 14 : 18}px">${playerData.flag || '⚽'}</span>`;
                 }}

@@ -10,7 +10,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 94,
     position: 'RW',
     number: '10',
-    avatar: '/players/messi.jpg'
+    avatar: './players/messi.jpg'
   },
   {
     id: 'ronaldo',
@@ -22,7 +22,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 93,
     position: 'ST',
     number: '7',
-    avatar: '/players/ronaldo.jpg'
+    avatar: './players/ronaldo.jpg'
   },
   {
     id: 'mbappe',
@@ -34,7 +34,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 93,
     position: 'ST',
     number: '9',
-    avatar: '/players/mbappe.jpg'
+    avatar: './players/mbappe.jpg'
   },
   {
     id: 'haaland',
@@ -46,7 +46,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 92,
     position: 'ST',
     number: '9',
-    avatar: '/players/haaland.jpg'
+    avatar: './players/haaland.jpg'
   },
   {
     id: 'vinicius',
@@ -58,7 +58,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 91,
     position: 'LW',
     number: '7',
-    avatar: '/players/vinicius.jpg'
+    avatar: './players/vinicius.jpg'
   },
   {
     id: 'salah',
@@ -70,7 +70,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 91,
     position: 'RW',
     number: '11',
-    avatar: '/players/salah.jpg'
+    avatar: './players/salah.jpg'
   },
   {
     id: 'debruyne',
@@ -82,7 +82,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 91,
     position: 'CAM',
     number: '17',
-    avatar: '/players/debruyne.jpg'
+    avatar: './players/debruyne.jpg'
   },
   {
     id: 'bellingham',
@@ -94,7 +94,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 90,
     position: 'CAM',
     number: '5',
-    avatar: '/players/bellingham.jpg'
+    avatar: './players/bellingham.jpg'
   },
   {
     id: 'neymar',
@@ -106,7 +106,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 89,
     position: 'LW',
     number: '10',
-    avatar: '/players/neymar.jpg'
+    avatar: './players/neymar.jpg'
   },
   {
     id: 'modric',
@@ -118,7 +118,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 88,
     position: 'CM',
     number: '10',
-    avatar: '/players/modric.jpg'
+    avatar: './players/modric.jpg'
   },
   {
     id: 'lewandowski',
@@ -130,7 +130,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 90,
     position: 'ST',
     number: '9',
-    avatar: '/players/lewandowski.jpg'
+    avatar: './players/lewandowski.jpg'
   },
   {
     id: 'benzema',
@@ -142,7 +142,7 @@ export const FOOTBALL_PLAYERS = [
     rating: 89,
     position: 'ST',
     number: '9',
-    avatar: '/players/benzema.jpg'
+    avatar: './players/benzema.jpg'
   }
 ];
 

@@ -25,7 +25,7 @@ export default function Navbar({
       {/* Brand Logo */}
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
         <img 
-          src="/app-icon.png" 
+          src="./app-icon.png" 
           alt="Ahmed Logo"
           style={{ width: '32px', height: '32px', borderRadius: '10px', objectFit: 'cover', boxShadow: '0 3px 10px rgba(212, 175, 55, 0.4)', border: '1.5px solid #d4af37' }} 
         />

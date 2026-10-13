@@ -17,7 +17,7 @@ export default function InstallModal({ onClose, hasPrompt, onTriggerPrompt }) {
         {/* App Icon & Name Preview Card */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '12px', backgroundColor: 'rgba(255,255,255,0.06)', padding: '8px 12px', borderRadius: '14px', border: '1.5px solid rgba(212, 175, 55, 0.4)' }}>
           <img 
-            src="/app-icon.png" 
+            src="./app-icon.png" 
             alt="Ahmed App Icon" 
             style={{ width: '48px', height: '48px', borderRadius: '12px', objectFit: 'cover', boxShadow: '0 4px 12px rgba(212, 175, 55, 0.3)', border: '1.5px solid #d4af37' }} 
           />
