@@ -1,0 +1,31 @@
+{
+  "short_name": "Ahmed",
+  "name": "Ahmed",
+  "description": "لعبة Ahmed - تحدي تخمين أساطير كرة القدم",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#0a1128",
+  "theme_color": "#0a1128",
+  "display": "standalone",
+  "orientation": "portrait"
+}
